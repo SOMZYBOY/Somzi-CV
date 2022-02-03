@@ -3,7 +3,7 @@ body{
 	text-align:center;
 	font-family: 'Merriweather', serif;
 	margin: 0;
-
+   
 }
 
 h1{
@@ -20,8 +20,8 @@ h2{
     font-size: 2.5rem;
     color:#66BFBF;
     font-weight: normal;
-    padding: 10px;
 }
+
 h3{
 	font-family: 'Montserrat', sans-serif;
 	color: #11999E;
@@ -93,10 +93,22 @@ p{
 
 }
 
+.getintouch{
+
+	padding-bottom:0px;
+
+}
+
 .contact-message{
 	width: 50%;
 	margin: 20px auto 60px;
 }
+
+.cont-tril{
+   padding-right: 10rem;
+   padding-left: 10rem;
+}
+
 .btn {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -115,11 +127,7 @@ p{
   margin-top: 30px;
   margin-bottom: 50px;
 }
-.cont-tril{
-   width: 25%;
-   margin: auto;
-   line-height: 2;
-}
+
 
 .btn:hover {
   background: #30e3cb;
@@ -130,6 +138,7 @@ p{
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
+
 .bottom-container{
 	background-color: #66BFBF;
 	margin-top: 50px;
